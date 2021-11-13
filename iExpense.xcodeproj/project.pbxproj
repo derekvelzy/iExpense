@@ -15,6 +15,7 @@
 		0C7876BD2740584F0078246B /* OnDeleteExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7876BC2740584F0078246B /* OnDeleteExample.swift */; };
 		0C7876BF274066E50078246B /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7876BE274066E50078246B /* ExpenseItem.swift */; };
 		0C7876C12740676E0078246B /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7876C02740676E0078246B /* Expenses.swift */; };
+		0C7876C327406C330078246B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7876C227406C330078246B /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		0C7876BC2740584F0078246B /* OnDeleteExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDeleteExample.swift; sourceTree = "<group>"; };
 		0C7876BE274066E50078246B /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		0C7876C02740676E0078246B /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		0C7876C227406C330078246B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0C7876BC2740584F0078246B /* OnDeleteExample.swift */,
 				0C787690273D7CD60078246B /* iExpenseApp.swift */,
 				0C787692273D7CD60078246B /* ContentView.swift */,
+				0C7876C227406C330078246B /* AddView.swift */,
 				0C7876BE274066E50078246B /* ExpenseItem.swift */,
 				0C7876C02740676E0078246B /* Expenses.swift */,
 				0C787694273D7CDA0078246B /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7876C327406C330078246B /* AddView.swift in Sources */,
 				0C7876C12740676E0078246B /* Expenses.swift in Sources */,
 				0C7876BD2740584F0078246B /* OnDeleteExample.swift in Sources */,
 				0C787693273D7CD60078246B /* ContentView.swift in Sources */,

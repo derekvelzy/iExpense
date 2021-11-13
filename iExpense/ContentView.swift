@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var expenses = Expenses()
+    @State private var showAddExpense = false
 
     var body: some View {
         NavigationView {
@@ -24,11 +25,13 @@ struct ContentView: View {
             .navigationTitle("iExpense")
             .toolbar {
                 Button {
-                    let expense = ExpenseItem(name: "Test", type: "Personal", amount: 5)
-                    expenses.items.append(expense)
+                    showAddExpense = true
                 } label: {
                     Image(systemName: "plus")
                 }
+            }
+            .sheet(isPresented: $showAddExpense) {
+                AddView(expenses: expenses)
             }
         }
     }
@@ -38,11 +41,16 @@ struct ContentView: View {
     }
 }
 
+
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+
+
 
 // Store user data in "AppStorage":
 // ex ->   @AppStorage("tapCount") private var tapCount = 0
